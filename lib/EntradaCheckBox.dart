@@ -21,6 +21,7 @@ class _EntradaCheckBoxState extends State<EntradaCheckBox> {
               title: Text("Comida Brasileira"),
               subtitle: Text("A melhor comida do mundo"),
               activeColor: Colors.red,
+              selected: _estaSelecionado,
               value: _estaSelecionado,
               onChanged: (bool valor) {
                 setState(() {
