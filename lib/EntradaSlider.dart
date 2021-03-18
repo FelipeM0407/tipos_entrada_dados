@@ -39,7 +39,7 @@ class _EntradaSliderState extends State<EntradaSlider> {
                 ),
               ),
               onPressed: () {
-                print("Valor Selecionado: " + _valorUsuario.toString());
+                print("Valor Definido: " + _valorUsuario.toString());
               },
             ),
           ],
